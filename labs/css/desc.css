@@ -1,0 +1,42 @@
+.description .text{
+    color: var(--main-color);
+}
+.child .icon{
+  color: var(--secondary-color);
+}
+.feature .box{
+    background-color: var(--main-color);
+}
+
+
+.container .child{
+    height: 3.938rem;
+    
+}
+
+.child .arrow{
+    color: var(--main-color);
+    right: 2%;
+}
+
+  .Add, .arrow:hover {
+    color: #777;
+  }
+
+  .card{
+    background-color: #2E2350;
+   
+  }
+  .description .textReflected,
+   .card-body{
+    color: #ffff;
+  }
+
+  .card.vid{
+    background-color: transparent;
+    border: none;
+  }
+
+.access-lab,.access-lab:hover{
+  background-color: var(--main-color);
+}

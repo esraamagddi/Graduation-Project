@@ -1,0 +1,24 @@
+/* start labs */
+.labs .parent .stick {
+    height: 85%;
+    width: 0.938rem;
+    background: var(--secondary-color);
+    border-radius: 32.6816px;
+}
+
+.labs .child .stick2{
+    width: 0.438rem;
+    height: 4rem;
+    left: 4rem;
+    background: var(--secondary-color);
+    border-radius: 32.6816px;
+}
+
+.child .btn{
+    background-color: var(--secondary-color);
+}
+
+.icon{
+    color: var(--secondary-color);
+}
+/* end labs */

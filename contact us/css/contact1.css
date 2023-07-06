@@ -1,0 +1,24 @@
+/* start contact us */
+.contact .contact-form form .form-control:focus{
+  box-shadow: none;
+  border-color: var(--main-color);
+}
+.contact .contact-form form .submit{
+  background-color: var(--main-color);
+}
+.contact .contact-form form input::placeholder{
+  font-size: 0.8rem;
+}
+.contact .contact-form form textarea{
+  font-size: 0.9rem;
+}
+/* end contact us */
+
+/* start our contacts */
+.contacts h2{
+  color: var(--main-color);
+}
+.contacts .links .row .info svg{
+  border-color: var(--main-color) !important;
+}
+/* end our contacts */

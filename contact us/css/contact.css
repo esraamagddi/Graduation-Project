@@ -1,0 +1,30 @@
+/* start contact us */
+.container  .contact-form{
+  background: linear-gradient(89.91deg, #FFFFFF 0.08%, #FFFFFF 43.99%, #11032A 49.44%);
+border-radius: 10px;
+}
+.contact .contact-form form .form-control{
+  border: 2px solid #636363;
+border-radius: 10px;
+}
+.contact .contact-form .image{
+  width: 41%;
+  /* top: 20%; */
+  height: 20rem;
+  /* left: 2rem; */
+}
+.contact .contact-form form .form-control:focus{
+  box-shadow: none;
+  border-color: var(--main-color);
+}
+.contact .contact-form form .submit{
+  background-color: var(--main-color);
+}
+.contact .contact-form form input::placeholder{
+  font-size: 0.8rem;
+}
+.contact .contact-form form textarea{
+  font-size: 0.9rem;
+}
+/* end contact us */
+

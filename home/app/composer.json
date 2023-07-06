@@ -1,0 +1,11 @@
+{
+    "require": {
+        "elasticsearch/elasticsearch": "^8.6",
+        "giggsey/libphonenumber-for-php": "^8.13"
+    },
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    }
+}

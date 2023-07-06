@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- reset options -->
+  <link rel="stylesheet" href="../../files/css/normalize.css">
+  <!-- font awesome stylesheet -->
+  <link rel="stylesheet" href="../../files/css/all.min.css">
+  <!-- bootstrap stylesheet -->
+  <link rel="stylesheet" href="../../files/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../../files/css/bootstrap.min.css.map">
+  <!-- component css page -->
+  <link rel="stylesheet" href="../../component/comp.css">
+  <!-- main css page -->
+  <link rel="stylesheet" href="../css/desc.css">
+  <!-- page title -->
+    <title>Reflected xss Description</title>
+    <!-- manifest file -->
+    <link rel="canonical" href="https://radwaamer.github.io/Graduation-Project/" />
+    <link rel="manifest" href="/Graduation-Project/manifest.json">
+    <meta name="theme-color" content="#3ab8ff">
+</head>
+<body>
+  <!-- loader -->
+  <script src="../../component/loader.js"></script>
+
+  <!-- start description -->
+  <div class="description mt-5 px-lg-5 mx-lg-5">  
+    <div class="container px-lg-5 mx-lg-5">
+      <h4 class="textReflected text-capitalize py-3 ms-lg-5" >Lab: Reflected Xss </h4>
+      <h3 class="main-head ms-lg-5">Description</h3>
+      <div class="landing pb-5 mb-5 pe-lg-5 mx-lg-5">
+        <div class="parent bg-white p-4 pe-5 rounded-4 position-relative mb-5 "  > 
+          <p class="fs-5 ms-3 align-items-center"> Cross-Site Scripting (XSS) attacks occur when:
+            Data enters a Web application through an untrusted source, most frequently a web request.
+            The data is included in dynamic content that is sent to a web user without being validated for malicious content
+            .
+          </p>
+        </div> 
+
+        <button class="access-lab btn mx-auto border-0 px-5 py-2 d-block rounded-1"><a class="text-white" href="./Reflected xss.php">Access The Lab</a></button>
+
+        <div class="child bg-white p-4 pe-5 rounded position-relative mt-5 align-items-center d-flex" id="child1" > 
+          <i class=" icon fa-solid fa-flask fa-2x  "></i>
+            <p class="fs-5 text-black-50  d-flex align-items-center position-absolute top-50 translate-middle-y fw-semibold" style="left: 4rem;"> Solution</p>
+            <i class="arrow fa-solid fa-chevron-down btn top-50 translate-middle-y position-absolute border-0" data-bs-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample"></i> 
+        </div>
+
+        <div class="collapse" id="collapseExample1">
+          <div  class="card w-100 card-body mt-4" id="card1">
+            <div class="card-body">
+                  <p>1. Open the lab and you will find a search bar.</p>
+                  <p>2. Type <span><</span>script>alert(document.cookie)<span><</span>/script></p>
+                  <p>3. The alert will trigger with the value of cookie.</p>
+            </div>
+          </div>
+        </div> 
+
+        <div class="child col-lg-12 bg-white p-4 pe-5 rounded position-relative mt-5 d-flex align-items-center"> 
+          <i class="icon fa-solid fa-flask fa-2x"></i>
+          <p class="fs-5 text-black-50  d-flex align-items-center position-absolute top-50 translate-middle-y fw-semibold" style=" left: 4rem;"> Video</p>
+          <i class="arrow fa-solid fa-chevron-down btn top-50 translate-middle-y position-absolute border-0" data-bs-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample"></i>
+        </div>
+        <div class="collapse" id="collapseExample2">
+          <div class="vid card align-items-center justify-content-center mt-4" id="card2" >
+            <div class="card-body">
+              <video class="w-75 mx-auto d-block rounded-3" controls>
+                <source src="../../videos/1-xss.mp4" type="video/mp4">
+              </video>
+            </div>
+          </div>
+        </div>
+
+        <div class="child col-lg-12 bg-white p-4 pe-5 rounded position-relative mt-5 align-items-center d-flex" id="child3" > 
+          <i class="icon fa-solid fa-flask fa-2x"></i>
+          <p class="fs-5 text-black-50  d-flex align-items-center position-absolute top-50 translate-middle-y fw-semibold" style="left: 4rem; " > How To Prevent</p>
+          <i class="arrow fa-solid fa-chevron-down btn top-50 translate-middle-y position-absolute border-0" data-bs-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample" ></i> 
+        </div>
+
+        <div class="collapse " id="collapseExample3">
+          <div  class="card w-100 mt-4 " id="card"  >
+            <div class="card-body me-5 text-white"><code class="text-white">
+                  • Filter input on arrival. At the point where user input is received, filter as strictly as possible based on what is expected or valid input. <br>
+                  • Encode data on output. At the point where user-controllable data is output in HTTP responses, encode the output to prevent it from being interpreted as active content. Depending on the output context, this might require applying combinations of HTML, URL, JavaScript, and CSS encoding. <br>
+                  • Use appropriate response headers. To prevent XSS in HTTP responses that aren't intended to contain any HTML or JavaScript, you can use the Content-Type and X-Content-Type-Options headers to ensure that browsers interpret the responses in the way you intend. <br>
+                  •Content Security Policy. As a last line of defense, you can use Content Security Policy (CSP) to reduce the severity of any XSS vulnerabilities that still occur.
+                      <p class="text-white">
+                        For more information
+                        <a href="https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html" target="_blank" rel="noopener noreferrer">Click Here</a> 
+                        </p>
+                </code>
+              <pre class="position-absolute">
+                
+              </pre>
+            </div>
+          </div>
+        </div>
+
+      </div> 
+    </div>
+  </div>
+  
+  <script src="../../component/jquery.min.js"></script>
+  <!-- font awesome js -->
+    <script src="../../files/js/all.min.js"></script>
+    <script src="https://kit.fontawesome.com/c7495e3692.js" crossorigin="anonymous"></script>
+    <!-- bootstrap js file -->
+    <script src="../../files/js/bootstrap.bundle.min.js"></script>
+    <script src="../../files/js/bootstrap.bundle.min.js.map"></script>
+    <!-- header -->
+    <!-- <script src="../../component/header.php"></script> -->
+    <!-- sign in -->
+    <script src="../../component/sign in.php"></script>
+    <!-- sign up -->
+    <script src="../../component/sign up.js"></script>
+    <!-- forget password -->
+    <script src="../../component/forget password.js"></script>
+    <!-- profile header -->
+    <!-- <script src="../component/profile header.js"></script> -->
+    <!-- main js file -->
+    <script src="../js/description.js"></script>
+    <!-- footer -->
+    <script src="../../component/footer.js"></script>
+    <!-- qr code -->
+    <script src="../../component/qr code.js"></script>
+    <!-- arrow -->
+    <script src="../../component/arrow.js"></script>
+    <!-- component js file -->
+    <script src="../../files/js/app.js"></script>
+</body>
+</html>

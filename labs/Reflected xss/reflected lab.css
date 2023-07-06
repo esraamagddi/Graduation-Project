@@ -1,0 +1,42 @@
+.carry .parent{
+    height: 8rem;
+    width: 15rem;
+    background: #00A3FF;
+    box-shadow:6px 5px 7px rgb(255 255 255 / 25%);
+}
+.xss .container .text,
+.xss .container .text2
+{
+color: #fff;
+}
+ .o{
+  height: 68px;
+  top: 4rem;
+}
+.SearchIcon{
+  right: 1%;
+
+}
+.searchButton{
+  width: 8rem;
+  background-color: #3B3387;
+}
+.form{
+  width: 46rem;
+}
+.search{
+
+
+background: #D9D9D9;
+}
+.textbox{
+  font-size: 200px;
+  color: #1D0D51;
+}
+
+
+@media (max-width: 768px) {
+  .xss form{
+    width: 75% !important;
+  }
+}

@@ -1,0 +1,40 @@
+.parent{
+    height: 8rem;
+    width: 15rem;
+    background-color: var(--main-color);
+}
+.text{
+    color: var(--main-color);
+}
+.text2{
+    color: #fff;
+}
+
+.SearchIcon{
+    right: 14%;
+
+}
+
+
+.card {
+
+    border: 1px solid var(--main-color);
+    background-color: rgb(255, 255, 255);
+    padding: .5rem;
+  }
+  
+  .card > .header {
+    margin-bottom: .25rem;
+  }
+  
+  .card > .body {
+    font-size: .8rem;
+    color: #777;
+  }
+  
+  .hide {
+    display: none;
+  }
+
+
+  

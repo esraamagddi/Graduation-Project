@@ -1,0 +1,80 @@
+/* start landing */
+.landing h1{
+    font-size: 2.8rem;
+}
+.landing h1 span{
+    color: var(--main-color);
+    -webkit-text-stroke: white 1px;
+    animation: flash 5s ease infinite;
+}
+.landing .what-breach{
+    color: var(--main-color);
+}
+.landing form #elk-search-btn{
+    right: 26%;
+}
+.landing p svg{
+    color: var(--main-color);
+}
+.landing .row svg,.landing .row p{
+    color: white;
+}
+.landing .row p{
+    font-size: 0.8rem;
+}
+
+@keyframes flash {
+    0%,67%{
+        text-shadow: 0px 0 0px white;
+    }
+    70%,77%{
+        text-shadow: 0px 0 10px white;
+    }
+    80%,87%{
+        text-shadow: 0px 0 0px white;
+    }
+    90%,98%{
+        text-shadow: 0px 0 10px white;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .landing form input:first-child {
+        width: 66% !important;
+        padding-right: 2.5rem !important;
+    }
+    .landing form #elk-search-btn{
+        right: 19.5%;
+    }
+}
+/* end landing */
+
+/* start elastic popup */
+#swal2-html-container{
+    margin-top: 0.5em;
+}
+#swal2-html-container h4.suc{
+    color: green;
+}
+#swal2-html-container h4.faild{
+    color: red;
+}
+.swal2-icon{
+    margin-top: 2em;
+}
+.swal2-title{
+    color: var(--secondary-color) !important;
+}
+.swal2-actions{
+    margin-top: 1em !important;
+}
+.swal2-confirm{
+    display: none !important;
+}
+.swal2-cancel:focus{
+    box-shadow: none !important;
+}
+.swal2-footer{
+    margin-top: 1em !important;
+}
+/* end elastic popup */

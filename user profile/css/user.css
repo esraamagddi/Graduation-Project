@@ -1,0 +1,51 @@
+body{
+    background-image: url("../imgs/Group\ 306.png");
+}
+.card{
+    background: none;
+}
+.card .card-body{
+    background-color: #D9D9D9;
+}
+.card .card-body .text{
+    color: #636363;
+    font-size: 73%;
+}
+
+.card-body .profileInf{
+    color: #1D0D51;
+}
+
+.input{
+    background: #D9D9D9;
+    border: black solid 1px;
+}
+
+.card-body .button .btn,
+.card-body .uphoto,
+.card-body .Daccount1,
+.modal-footer .Daccount2
+{
+    background-color: #1D0D51;
+    width: 10rem;
+}
+
+.hr{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        border: 0;
+        border-top: 1px solid rgba(0, 0, 0, 0.2);
+      
+}
+.updatePass{
+    color: var(--secondary-color);
+}
+
+.img{
+    transform: translate(50%, -50%);
+}
+
+.input22{
+    border: 2px solid #585859;
+    border-radius: 5px;
+}

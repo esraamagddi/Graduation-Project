@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- reset options -->
+  <link rel="stylesheet" href="../../../files/css/normalize.css">
+  <!-- font awesome stylesheet -->
+  <link rel="stylesheet" href="../../../files/css/all.min.css">
+  <!-- bootstrap stylesheet -->
+  <link rel="stylesheet" href="../../../files/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../../../files/css/bootstrap.min.css.map">
+  <!-- component css page -->
+  <link rel="stylesheet" href="../../../component/comp.css">
+  <!-- main css page -->
+  <link rel="stylesheet" href="../CSRF.css">
+  <!-- page title -->
+    <title>view products</title>
+    <!-- manifest file -->
+    <link rel="canonical" href="https://radwaamer.github.io/Graduation-Project/" />
+    <link rel="manifest" href="/Graduation-Project/manifest.json">
+    <meta name="theme-color" content="#3ab8ff">
+</head>
+<body>
+  <!-- loader -->
+  <script src="../../component/loader.js"></script>
+
+  <!-- start description -->
+  
+  <div class="xss d-flex flex-column justify-content-center align-items-center mb-5">
+    <div class="container mt-4">
+
+
+      <div class="d-flex align-items-center logo-labs position-relative mb-5">
+        <div class="landing rounded-4 d-flex align-items-center justify-content-center text-center">
+                <img src="../../../files/imgs/logo.png" alt="">
+            </div>
+            <div class="border border-0 border-start ms-2 ps-4">
+              <h2  class="text fs-2 fw-semibold border-bottom border-primary text-white "> <span class=" position-absolute "style="
+            height: 68px
+            top: 4rem;
+        " >SSRF  </span> 
+        <a href="../SSRF description.html"><br><span class="text2 fs-5 text-white">Back to lab description <small class="fs-6">>>></small> </span>  </a>  </h2>
+            </div>
+            <div class="position-absolute end-0 w-100" style="background-color: var(--main-color); height: 2px; bottom:-13px"></div>
+      </div>
+
+      
+             <div class="container">
+      
+              <div class="home home text-white d-flex fs-3    justify-content-end">
+     <p class=" home text-white d-flex "><a class="text-white" href="../ssrf.php">Home</a>  </p></p> </p></div>
+             
+    </div>
+<div class="container">
+          <div class="rate mb-3 text-white"> <p class="mb-4"> Robot Home Security Buddy
+        </p><img class="me-5 mb-3" src="../../imgs/rating4.png"><p class=" price mb-3 d-flex flex-end"> " $63.66"</p>
+          </div>
+       <div class="g-col-4 text-white mb-5  "> <img class="rounded w-75 h-75 mb-3" src="../../imgs/54.jpg " alt="">
+     <h2 class=" text-white"> Description:</h2>
+        <p class="mb-5">
+            Description:
+            Everyone loves a robot. Now it's time to really make them earn their keep. As all your smart home devices get smaller and more sophisticated, the robots are getting cuter and sporting more human traits. It's time to cuddle into their hard exterior and discover their softer interiors. Stroke them until they fall asleep, just like a beloved pet. But the designers also want them to be of some practical use as well. Bring in your Robot Home Security Buddy.
+            Your new friend has a built-in camera allowing panoramic views of the inside of your house. You can connect via your phone or tablet when away, and everything is recorded should you need to review the tape following any incidents. The bots will run on a single charge for 30 minutes. This does mean if you are planning on leaving the house for longer than 30 minutes you will need several of them to cover the time you are away. Don't worry, we have plenty to go around. When buying the Master Bot you will receive a 10% discount on any of the additional Soldier Bots. Your robot army will give you peace of mind every time you close the front door behind you. Wired CCTV has become a thing of the past.   </div>  
+   <div class="return  ">  </a>
+    <div class="arrows align-items-center justify-content-end d-flex ">
+
+    <i class="fa-solid fs-2 fa-chevron-left text-primary"></i> 
+    <i class="fa-solid fs-2 fa-chevron-left text-primary"></i>   
+    <a  href="../ssrf.php" >
+     <span class=" text-white align-items-center">Return to list</span> </a>
+   
+      </div>
+    </div>
+    </div>
+    <?php
+    error_reporting(0);
+
+    header('ssrf.php');
+
+    if (isset($_GET['url'])) {
+      $url = $_GET['url'];
+      echo "<div class='output'>";
+      echo file_get_contents($url);
+      echo "</div>";
+    }
+    ?>
+ </div>
+   
+ 
+<script src="../../../component/jquery.min.js"></script>
+<!-- font awesome js -->
+  <script src="../../../files/js/all.min.js"></script>
+  <script src="https://kit.fontawesome.com/c7495e3692.js" crossorigin="anonymous"></script>
+  <!-- bootstrap js file -->
+  <script src="../../../files/js/bootstrap.bundle.min.js"></script>
+  <script src="../../../files/js/bootstrap.bundle.min.js.map"></script>
+  <!-- header -->
+  <!-- <script src="../../../component/header.php"></script> -->
+  <!-- sign in -->
+  <script src="../../../component/sign in.php"></script>
+  <!-- sign up -->
+  <script src="../../../component/sign up.js"></script>
+  <!-- forget password -->
+  <script src="../../../component/forget password.js"></script>
+  <!-- profile header -->
+  <!-- <script src="../component/profile header.js"></script> -->
+  <!-- main js file -->
+  <script src="../../js/description.js"></script>
+  <!-- footer -->
+  <!-- <script src="../../../component/footer.js"></script> -->
+  <!-- qr code -->
+  <script src="../../../component/qr code.js"></script>
+  <!-- arrow -->
+  <script src="../../../component/arrow.js"></script>
+  <!-- component js file -->
+  <script src="../../../files/js/app.js"></script>
+</body>
+</html>

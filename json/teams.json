@@ -1,0 +1,91 @@
+{
+    "Security Team":[
+        {
+            "id":1,
+            "img":"../files/imgs/boy.png",
+            "name":"Ramez Safwat",
+            "job-title":"Information Security Engineer",
+            "mail":"rororado44@gmail.com",
+            "git":"https://github.com/Radwaamer",
+            "linkedin":"linkedin.com/in/radwa-amer-123310217"
+        },
+        {
+            "id":1,
+            "img":"../files/imgs/boy.png",
+            "name":"Adham Sayed",
+            "job-title":"Information Security Engineer",
+            "mail":"rororado44@gmail.com",
+            "git":"https://github.com/Radwaamer",
+            "linkedin":"linkedin.com/in/radwa-amer-123310217"
+        }
+    ],
+    "Back-End Developers":[
+        {
+            "id":1,
+            "img":"../files/imgs/long girl.png",
+            "name":"Esraa Magdy",
+            "job-title":"Information Security Engineer",
+            "mail":"rororado44@gmail.com",
+            "git":"https://github.com/Radwaamer",
+            "linkedin":"linkedin.com/in/radwa-amer-123310217"
+        },
+        {
+            "id":1,
+            "img":"../files/imgs/nerd girl.png",
+            "name":"zaynab Mohamed",
+            "job-title":"Information Security Engineer",
+            "mail":"rororado44@gmail.com",
+            "git":"https://github.com/Radwaamer",
+            "linkedin":"linkedin.com/in/radwa-amer-123310217"
+        },
+        {
+            "id":1,
+            "img":"../files/imgs/boy.png",
+            "name":"Osama Mohamed",
+            "job-title":"Information Security Engineer",
+            "mail":"rororado44@gmail.com",
+            "git":"https://github.com/Radwaamer",
+            "linkedin":"linkedin.com/in/radwa-amer-123310217"
+        }
+    ],
+    "Front-End Developers":[
+        {
+            "id":1,
+            "img":"../files/imgs/short girl.png",
+            "name":"Radwa Amer",
+            "job-title":"Information Security Engineer",
+            "mail":"rororado44@gmail.com",
+            "git":"https://github.com/Radwaamer",
+            "linkedin":"linkedin.com/in/radwa-amer-123310217"
+        },
+        {
+            "id":1,
+            "img":"../files/imgs/boy.png",
+            "name":"Zyad Mostafa",
+            "job-title":"Information Security Engineer",
+            "mail":"rororado44@gmail.com",
+            "git":"https://github.com/Radwaamer",
+            "linkedin":"linkedin.com/in/radwa-amer-123310217"
+        }
+    ],
+    "UI & UX":[
+        {
+            "id":1,
+            "img":"../files/imgs/boy.png",
+            "name":"Islam Fathy",
+            "job-title":"Information Security Engineer",
+            "mail":"rororado44@gmail.com",
+            "git":"https://github.com/Radwaamer",
+            "linkedin":"linkedin.com/in/radwa-amer-123310217"
+        },
+        {
+            "id":1,
+            "img":"../files/imgs/black girl.png",
+            "name":"Rawan Ashraf",
+            "job-title":"Information Security Engineer",
+            "mail":"rororado44@gmail.com",
+            "git":"https://github.com/Radwaamer",
+            "linkedin":"linkedin.com/in/radwa-amer-123310217"
+        }
+    ]
+}

